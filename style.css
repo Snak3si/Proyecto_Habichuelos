@@ -192,7 +192,7 @@ nav .active{
     font-weight: 600;
     letter-spacing: 1px;
     color: palevioletred;
-    text-transform: capitalize;
+    text-transform: capitalize; 
 }
 
 .section-title{
@@ -225,4 +225,108 @@ nav .active{
 
 .action-btn:hover{
     background-color: plum;
+}
+
+/*Seccion formulario*/
+#join-us .content-wrap   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.join-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.input-1{
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 45px;
+    width: 500px;
+    padding: 0 30px;
+}
+.input-1::placeholder{
+    color: white; 
+    text-align: center;
+}
+#join-us p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.join-btn{
+    background-color: pink;
+    font-size: 18px;
+    font-weight: 600; 
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    height: 45px;
+    width: 300px;
+    transition: 0.3s;
+    color: rgb(80, 79, 79);
+}
+.join-btn:hover{
+    background-color: plum;
+} 
+
+.section-sub{
+    margin-top: 25px;
+}
+
+/*Footer*/
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    column-gap: 50px;
+}
+.footer-grid div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#footer h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.footer-items{
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-items:hover{
+    color: rgb(241,241,241);
+    text-shadow: 0 0 10px white;
+}
+#footer .section-box{
+    height: auto;
+}
+
+.team{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+}
+.team span{
+    color: rgb(250, 32, 184);
+}
+#footer{
+    align-items: center;
+    height: auto;
+    padding: 65 px 0;
 }
